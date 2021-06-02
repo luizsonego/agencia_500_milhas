@@ -1,0 +1,48 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+.social-link {
+    position: fixed;
+    z-index: 9999;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.8);
+    padding: 15px 10px;
+    border-radius: 20px;
+    color: white;
+    opacity: 1;
+    text-align: center;
+    animation: 0.75s cubic-bezier(0, 0, 0.02, 1) slidein;
+    animation-delay: 1.5s;
+}
+
+.connectivity {
+  background: linear-gradient(114.12deg, #0F5CDC 13.46%, #0EC8F6 100.5%), #0656DB;
+  background-image: url('/assets/connectivity.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@keyframes slidein {
+    0% {
+      right: -35px;
+      }
+    100% {
+      right: 15px;
+      }
+  }
