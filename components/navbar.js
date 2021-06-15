@@ -19,7 +19,7 @@ const Navbar = (props) => {
                 (props.transparent ? "text-white" : "text-gray-800") +
                 " text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
               }
-              href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+              href="/"
             >
               Agência 500 Milhas
             </a>
@@ -55,19 +55,41 @@ const Navbar = (props) => {
                       : "text-gray-800 hover:text-gray-600") +
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
-                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
+                  href="/"
+                >{" "}
+                  Home
+                </a>
+              </li>
+
+              <li className="flex items-center">
+                <a
+                  className={
+                    (props.transparent
+                      ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                      : "text-gray-800 hover:text-gray-600") +
+                    " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
+                  href="/about"
+                >{" "}
+                  Sobre Nós
+                </a>
+              </li>
+
+              <li className="flex items-center">
+                <a
+                  className={
+                    (props.transparent
+                      ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                      : "text-gray-800 hover:text-gray-600") +
+                    " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
+                  href="/contact"
                 >
-                  <i
-                    className={
-                      (props.transparent
-                        ? "lg:text-gray-300 text-gray-500"
-                        : "text-gray-500") +
-                      " far fa-file-alt text-lg leading-lg mr-2"
-                    }
-                  />{" "}
+                  {" "}
                   Contato
                 </a>
               </li>
+
 
             </ul>
           </div>

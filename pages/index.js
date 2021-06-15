@@ -6,6 +6,8 @@ import { getAllConn } from '../lib/apiConn'
 import About from '../components/pages/about'
 import Container from '../components/container'
 import Connect from '../components/pages/connectivity'
+import Footer from '../components/footer'
+import Cta from '../components/cta'
 
 export default function Index({ allConn }) {
   const connections = allConn
@@ -19,6 +21,8 @@ export default function Index({ allConn }) {
           <Intro />
           <About />
           {connections.length > 0 && <Connect connect={connections} />}
+          <Cta />
+          <Footer />
         </Container>
       </Layout>
     </>

@@ -1,33 +1,83 @@
 @tailwind base;
-
 /* Write your own custom base styles here */
 
 /* Start purging... */
+
 @tailwind components;
 /* Stop purging. */
 
 /* Write you own custom component styles here */
 
 /* Start purging... */
-@tailwind utilities;
-/* Stop purging. */
 
-/* Your own custom utilities */
+@tailwind utilities;
 
 .social-link {
-    position: fixed;
-    z-index: 9999;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.8);
-    padding: 15px 10px;
-    border-radius: 20px;
-    color: white;
-    opacity: 1;
-    text-align: center;
-    animation: 0.75s cubic-bezier(0, 0, 0.02, 1) slidein;
-    animation-delay: 1.5s;
+  position: fixed;
+  z-index: 9999;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px 10px;
+  border-radius: 20px;
+  color: white;
+  opacity: 1;
+  text-align: center;
+  animation: 0.75s cubic-bezier(0, 0, 0.02, 1) slidein;
+  animation-delay: 2s;
+}
+
+.social-link .link {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.social-link .social-link-hover {
+  width: 0;
+  opacity: 0;
+}
+.social-link .link:hover .mylink {
+  color: #0EC8F6;
+  position: absolute;
+  margin-right: 180px;
+  margin-top: -20px;
+  z-index: 99;
+  transition-property: all;
+  transition-duration: 0.85s;
+  transition-timing-function: cubic-bezier(0.02, 1.01, 0.79, 1.05);
+  transition-delay: 0s;
+}
+
+.social-link .link .social-link-hover {
+  opacity: 0;
+  padding: 20px 5px 20px 5px;
+  border-radius: 50px 0 0px 50px;
+  margin-top: -20px;
+  height: 30px;
+  position: absolute;
+  transition: all 0.85s;
+  width: 0;
+}
+
+.social-link .link:hover .social-link-hover {
+  opacity: 1;
+  position: absolute;
+  color: #0f5cdc;
+  right: 1px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 15px 20px 65px;
+  border-radius: 50px 0 0px 50px;
+  margin-top: -20px;
+  height: 30px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.85s;
 }
 
 .connectivity {
@@ -39,10 +89,14 @@
 }
 
 @keyframes slidein {
-    0% {
-      right: -35px;
-      }
-    100% {
-      right: 15px;
-      }
+  0% {
+    right: -35px;
   }
+  100% {
+    right: 15px;
+  }
+}
+
+.transition-cubic {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 0.80s
+}

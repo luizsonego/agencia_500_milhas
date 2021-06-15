@@ -1,19 +1,19 @@
 {
-  "name": "Next.js",
-  "short_name": "Next.js",
+  "name": "Agencia 500 Milhas",
+  "short_name": "Agencia 5M",
   "icons": [
     {
-      "src": "/favicons/android-chrome-192x192.png",
+      "src": "/favicons/android-icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/favicons/android-chrome-512x512.png",
-      "sizes": "512x512",
+      "src": "/favicons/mstile-310x310.png",
+      "sizes": "310x310",
       "type": "image/png"
     }
   ],
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "theme_color": "#461E77",
+  "background_color": "#461E77",
   "display": "standalone"
 }
