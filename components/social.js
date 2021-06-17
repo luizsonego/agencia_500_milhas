@@ -5,10 +5,10 @@ function Social() {
     <div className="social-link">
       <ul>
         <li className="link">
-          <a className="text-gray-500 mylink" href="">
+          <a className="text-gray-500 mylink" href="https://www.facebook.com/Agência-500-Milhas-102975658500673/?ref=pages_you_manage" target="_blank">
             <Icon size={24} icon="facebook" color="none" fill="currentColor" />
           </a>
-            <a className="social-link-hover">
+            <a className="social-link-hover" href="https://www.facebook.com/Agência-500-Milhas-102975658500673/?ref=pages_you_manage" target="_blank">
               Facebook
             </a>
         </li>

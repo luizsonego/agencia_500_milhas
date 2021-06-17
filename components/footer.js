@@ -36,7 +36,7 @@ export default function Footer() {
                       <Link href="/about">
                         <a
                           className="text-gray-100 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-
+                          target="_parent"
                         >
                           Sobre nós
                       </a>
@@ -46,6 +46,7 @@ export default function Footer() {
                       <Link href="" >
                         <a
                           className="text-gray-100 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                          target="_parent"
                         >
                           Blog
                       </a>
@@ -55,6 +56,7 @@ export default function Footer() {
                       <Link href="/contact">
                         <a
                           className="text-gray-100 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                          target="_parent"
                         >
                           Contato
                       </a>
@@ -64,6 +66,7 @@ export default function Footer() {
                       <Link href="">
                         <a
                           className="text-gray-100 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                          target="_parent"
                         >
                           Produtos
                       </a>

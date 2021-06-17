@@ -71,11 +71,12 @@ function Contact() {
         </Head>
         <Container>
           <Intro />
-          <section className="pt-20 pb-28 w-full">
+          <section className="pt-20 pb-28 w-6/12 md:w-full">
 
             <div className="container mx-auto ">
               <div className="flex flex-wrap items-center md:justify-between justify-center">
-                <div className="w-full md:w-4/12 mx-auto text-center">
+
+                <div className="w-9/12 md:w-4/12 mx-auto text-center">
                   <div className="text-sm text-gray-100 font-semibold py-1">
 
                     {status.submitted === true ? (
@@ -86,21 +87,21 @@ function Contact() {
                           name="name"
                           type="text"
                           placeholder="Nome"
-                          className="sm:w-96 w-96 bg-gray-50 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
+                          className="w-80 md:w-96 bg-gray-50 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
                           required
                         />
                         <Input
                           name="email"
                           type="email"
                           placeholder="Email"
-                          className="sm:w-96 w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
+                          className="w-80 md:w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
                           required
                         />
                         <Input
                           name="phone"
                           type="text"
                           placeholder="Telefone/Whatsapp"
-                          className="sm:w-96 w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
+                          className="w-80 md:w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
                           mask="(99) 9 9999 - 9999"
                           required
                         />
@@ -108,15 +109,15 @@ function Contact() {
                           name="message"
                           type="text"
                           placeholder="Assunto"
-                          className="sm:w-96 w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold resize-y"
+                          className="w-80 md:w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold resize-y"
                         />
 
                         {status.submitting === true ?
                           (
-                            <button className="sm:w-96 w-96 text-gray-50 bg-purple-700 hover:bg-purple-500 hover:ring-2  px-2 py-5 rounded mx-auto transition-cubic " type="submit"  ><PendingSendMail /></button>
+                            <button className="w-80 md:w-96 text-gray-50 bg-purple-700 hover:bg-purple-500 hover:ring-2  px-2 py-5 rounded mx-auto transition-cubic " type="submit"  ><PendingSendMail /></button>
                           ) :
                           (
-                            <button className="sm:w-96 w-96 text-gray-50 bg-purple-700 hover:bg-purple-500 hover:ring-2 transform hover:scale-105 px-28 py-5 rounded mx-auto transition-cubic font-semibold" type="submit">Enviar</button>
+                            <button className="w-80 md:w-96 text-gray-50 bg-purple-700 hover:bg-purple-500 hover:ring-2 transform hover:scale-105 px-28 py-5 rounded mx-auto transition-cubic font-semibold" type="submit">Enviar</button>
                           )
                         }
                       </Form>
