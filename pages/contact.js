@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Form } from '@unform/web'
 import Input from '../components/input';
+import MaskInput from '../components/maskInput'
 import Intro from "../components/intro";
 import Footer from '../components/footer'
 import { useRef, useState } from 'react';
@@ -22,6 +23,7 @@ function Contact() {
 
   function handleSubmit(data) {
 
+    console.log(data)
     setStatus({
       submitted: false,
       submitting: true,
@@ -97,7 +99,7 @@ function Contact() {
                           className="w-80 md:w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
                           required
                         />
-                        <Input
+                        <MaskInput
                           name="phone"
                           type="text"
                           placeholder="Telefone/Whatsapp"

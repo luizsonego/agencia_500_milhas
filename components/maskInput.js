@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { useField } from '@unform/core'
-export default function Input({ name, ...rest }) {
+import ReactInputMask from 'react-input-mask'
+export default function MaskInput({ name, ...rest }) {
   const inputRef = useRef(null)
   const { fieldName, defaultValue, registerField, error, clearError } = useField(name)
   useEffect(() => {
@@ -20,7 +21,7 @@ export default function Input({ name, ...rest }) {
   }, [fieldName, registerField])
   return (
     <>
-      <input 
+      <ReactInputMask 
         ref={inputRef} 
         defaultValue={defaultValue}
         className={error ? 'has-error' : ''}
