@@ -10,6 +10,7 @@ export default function (request, response) {
     secure: true
   })
 
+  console.log(request.body)
   const mailData = {
     from: `${request.body.email}`,
     to: 'contato@500milhas.com',
