@@ -30,6 +30,7 @@ export default function Index({ allConn }) {
 }
 
 export async function getStaticProps() {
+  
   const allConn = getAllConn([
     'title',
     'excerpt',

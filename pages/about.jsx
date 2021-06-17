@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 import Layout from "../components/layout";
 import Container from '../components/container';
 
-function pages() {
+function About() {
   return (
     <>
       <Layout>
@@ -35,4 +35,4 @@ function pages() {
   )
 }
 
-export default pages;
+export default About;
