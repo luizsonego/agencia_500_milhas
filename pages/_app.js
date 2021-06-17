@@ -9,6 +9,7 @@ import Loading from '../components/animations/loading'
 export default function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false)
 
+
   Router.events.on("routeChangeStart", (url) => {
     setLoading(true)
     NProgress.start();

@@ -25,26 +25,26 @@ export default function Cta() {
       </div>
 
       <Container>
-        <div className="pt-16 pb-10 px-28 flex flex-col lg:flex-row items-center mx-auto">
+        <div className="pt-16 pb-10 px-9 md:px-28 flex flex-col lg:flex-row items-center mx-auto">
           <h3 className="text-gray-50 text-4xl lg:text-7xl font-bold tracking-tighter leading-tight text-center mb-10 lg:mb-0 lg:pr-4 lg:w-full">
             Vamos começar <br />
             um projeto juntos?
           </h3>
         </div>
 
-        <div className="pb-10 px-28 flex flex-col lg:flex-row items-center mx-auto">
+        <div className="pb-10 px-16 md:px-28 flex flex-col lg:flex-row items-center mx-auto">
           <p className="text-gray-50 text-1xl lg:text-2xl font-normal tracking-tighter leading-tight text-center mb-10 lg:mb-0 lg:pr-4 lg:w-full">
             Seu projeto merece ficar em boas mãos, conte com a nossa agência para isso. <br /> Tem todas informações e está preparado? Então vamos começar!
           </p>
         </div>
-        <div className="pb-10 px-28 flex flex-col lg:flex-row items-center mx-auto ">
-          <a href="https://api.whatsapp.com/send?phone=554499803500&text=Gostaria%20de%20saber%20mais%20sobre%20o%20marketing%20para%20minha%20empresa" className="text-gray-50 bg-purple-700 hover:bg-purple-500 hover:ring-2 transform hover:scale-105 px-28 py-5 rounded-full mx-auto transition-cubic" target="_blank">Quero começar agora mesmo</a>
+
+        <div className="pb-10 px-5 md:px-28 flex flex-col lg:flex-row items-center md:mx-auto ">
+          <a href="https://api.whatsapp.com/send?phone=554499803500&text=Gostaria%20de%20saber%20mais%20sobre%20o%20marketing%20para%20minha%20empresa" 
+          className="text-gray-50 bg-purple-700 hover:bg-purple-500 hover:ring-2 transform hover:scale-105 px-5 sm:px-28 py-2 sm:py-5 rounded-full  mx-auto transition-cubic text-center w-full md:w-32 lg:w-3/6" 
+          target="_blank">Quero começar agora mesmo</a>
         </div>
 
         <hr className="divide-y divide-fuchsia-300 divide-opacity-80 mt-20" />
-
-        <br />
-
 
 
       </Container>
