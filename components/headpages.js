@@ -1,12 +1,12 @@
 import imageMaringa from "../public/assets/maringa.jpg"
 
-export default function Intro() {
+export default function HeadPage() {
   return (
     <>
       <div
         className="relative pt-16 pb-32 flex content-center items-center justify-center"
         style={{
-          minHeight: "75vh",
+          minHeight: "22vh",
         }}
       >
         <div
@@ -17,19 +17,6 @@ export default function Intro() {
           }}
         >
           <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
-        </div>
-
-        <div className="container relative mx-auto">
-          <div className="flex flex-wrap items-center md:justify-between justify-center">
-            <div className="w-full md:w-6/12 px-4 mx-auto text-center">
-              <h1 className="text-white font-semibold text-8xl intro-title leading-none">
-                <span className="text-9xl md:text-8xl">500</span> Milhas
-              </h1>
-              <p className="text-gray-50 font-semibold py-1 text-5xl text-lg text-gray-300">
-                O caminho mais curto para o sucesso da sua empresa!
-              </p>
-            </div>
-          </div>
         </div>
 
         <div

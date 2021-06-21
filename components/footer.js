@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
               <h4 className="text-3xl text-gray-50 font-semibold">Agência 500 Milhas</h4>
-              <h5 className="text-lg mt-0 mb-2 text-gray-50">O caminho mais curto para encontrar sua empresa!</h5>
+              <h5 className="text-lg mt-0 mb-2 text-gray-50">O caminho mais curto para o sucesso da sua empresa!</h5>
               <div className="mt-6 lg:mb-0 mb-6">
 
                 <button
