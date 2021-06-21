@@ -12,6 +12,16 @@
 
 @tailwind utilities;
 
+
+.font-passion-one{
+  font-family: Passion One, sans-serif;
+}
+
+.intro-title{
+  font-family: Passion One, sans-serif;
+  font-weight: 700;
+}
+
 .social-link {
   position: fixed;
   z-index: 9999;
@@ -40,6 +50,7 @@
   width: 0;
   opacity: 0;
 }
+
 .social-link .link:hover .mylink {
   color: #0EC8F6;
   position: absolute;
@@ -99,4 +110,54 @@
 
 .transition-cubic {
   transition: cubic-bezier(0.4, 0, 0.2, 1) 0.80s
+}
+
+/*
+*About
+*/
+
+.section-mask-title {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1200px;
+}
+
+.section-mask-title video {
+  width: 100%;
+  height: 300px;
+}
+
+svg.svg-mask {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+svg.svg-mask text {
+  font-family: Passion One, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 38px;
+}
+
+svg.svg-mask rect {
+  fill: white;
+}
+
+svg.svg-mask.vision>rect {
+  -webkit-mask: url(#vision);
+  mask: url(#vision);
+}
+
+svg.svg-mask.mission>rect {
+  -webkit-mask: url(#mission);
+  mask: url(#mission);
+}
+
+svg.svg-mask.values>rect {
+  -webkit-mask: url(#values);
+  mask: url(#values);
 }

@@ -22,11 +22,11 @@ export default function Intro() {
         <div className="container relative mx-auto">
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-6/12 px-4 mx-auto text-center">
-              <h1 className="text-white font-semibold text-5xl">
+              <h1 className="text-white font-semibold text-8xl intro-title">
                 500 Milhas
               </h1>
-              <p className="text-gray-100 font-semibold py-1 text-lg text-gray-300">
-                O caminho mais curto para encontrar sua empresa!
+              <p className="text-gray-50 font-semibold py-1 text-5xl text-lg text-gray-300">
+                O caminho mais curto para o sucesso da sua empresa!
               </p>
             </div>
           </div>
