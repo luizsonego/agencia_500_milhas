@@ -6,13 +6,13 @@ date: '2020-03-16T05:35:07.322Z'
 author:
   name: Joe Haddad
   picture: '/assets/blog/authors/joe.jpeg'
-ogImage: '/assets/connectivity/banners/google-partners.jpg'
+ogImage: '/assets/connectivity/banners/google-partner.png'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+Em um só lugar, os profissionais de **AdWords** encontram: material educacional, programas de capacitação, treinamentos, ofertas promocionais, oportunidades para testar novos serviços, informações sobre tendências do mercado e da indústria do marketing e pesquisas relacionadas à área. Além de tudo isso, a plataforma disponibiliza materiais para informar aos clientes sobre o funcionamento e as vantagens do **Google AdWords**, fundamental para fortalecer a presença das empresas na web.
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+Hoje, as pessoas utilizam o Google para buscar informações de todo tipo. E é claro que as instituições que aparecem nos primeiros resultados da busca são tidas pelos consumidores como as melhores.
 
-## Lorem Ipsum
+Com isso, a **certificação Google Partners** foi lançada para qualificar e para nivelar os profissionais do AdWords: todos devem ter um determinado nível de conhecimento e informação. A partir dessa ferramenta, o Google tem o controle das agências, visando a atestar a qualidade e a confiabilidade da prestação dos serviços.
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+O selo do Google Partners gera mais confiança e mais segurança aos clientes – isso é fato! A proximidade com o Google faz com que as agências sejam desenvolvedoras de diversos produtos, o que acaba também aumentando a confiança dos clientes. Aliás, o consumidor sempre vai procurar as agências parceiras do Google, já que elas são treinadas por ele próprio e, dessa forma, são experts nas ferramentas.
