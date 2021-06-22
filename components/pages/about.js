@@ -33,7 +33,7 @@ const About = () => {
               É por isso que aqui na 500 Milhas, temos uma abordagem dinâmica de marketing, e uma <StyledSubTitle className="text-4xl font-bangers">Power criatividade </StyledSubTitle>,  tudo isso adaptado às necessidades específicas de cada cliente para branding, design de logotipo, marketing digital, web design, desenvolvomento de aplicativos e sistemas, promoção e publicidade. Cuidamos de tudo para que você continue inovando.
             </p>
             <p className="text-lg leading-relaxed m-4 text-gray-600 text-justify my-7 leading-loose">
-              Como parte de nossos recursos de consultoria, podemos ajudá-lo a definir seus objetivos de negócios e criar os melhores processos e <StyledSubTitle className="text-4xl font-bungee-shade align-middle">estratégias </StyledSubTitle> para atingir esses objetivos. Trabalharemos com você para encontrar a solução ideal para sua empresa.
+              Como parte de nossos recursos de consultoria, podemos ajudá-lo a definir seus objetivos de negócios e criar os melhores processos e <StyledSubTitle className="text-3xl md:text-4xl font-bungee-shade align-middle">estratégias </StyledSubTitle> para atingir esses objetivos. Trabalharemos com você para encontrar a solução ideal para sua empresa.
               </p>
           </div>
         </div>
