@@ -40,6 +40,9 @@ export default function Meta() {
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700;900&display=swap" rel="stylesheet" />
       <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/biko-black.woff" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet" />
 
 
       <script src="https://kit.fontawesome.com/bfaef1dc37.js" crossorigin="anonymous"></script>

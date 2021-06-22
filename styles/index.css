@@ -11,13 +11,23 @@
 /* Start purging... */
 
 @tailwind utilities;
+.font-barrio {
+  font-family: Barrio, cursive;
+}
 
-
-.font-passion-one{
+.font-passion-one {
   font-family: Passion One, sans-serif;
 }
 
-.intro-title{
+.font-bungee-shade {
+  font-family: Bungee Shade, sans-serif;
+}
+
+.font-bangers {
+  font-family: Bangers, sans-serif;
+}
+
+.intro-title {
   font-family: Passion One, sans-serif;
   font-weight: 700;
 }
