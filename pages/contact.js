@@ -1,19 +1,30 @@
 import Head from "next/head";
 import { Form } from '@unform/web'
+import styled from "styled-components";
 import Input from '../components/input';
-import MaskInput from '../components/maskInput'
-import Intro from "../components/intro";
-import Footer from '../components/footer'
 import { useRef, useState } from 'react';
 import Layout from "../components/layout";
+import Footer from '../components/footer'
 import { CMS_NAME } from '../lib/constants'
+import TextArea from "../components/textarea";
+import HeadPage from "../components/headpages";
+import MaskInput from '../components/maskInput'
 import Container from '../components/container';
 import AfterSendMail from '../components/animations/afterSendMail'
 import PendingSendMail from "../components/animations/pendingSendMail";
-import TextArea from "../components/textarea";
+import ContainerTopSmall from "../components/containerTopSmall";
 
 
 function Contact() {
+  const StyledTitle = styled.h3`
+    color: ${(props) => props.theme.colors.primary};
+    text-transform: uppercase;
+    background: linear-gradient(312deg, ${(props) => props.theme.colors.primary_light} 0%, ${(props) => props.theme.colors.secondary} 50%, ${(props) => props.theme.colors.secondary_light} 100%);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+  `
+
   const formRef = useRef(null)
   const [status, setStatus] = useState({
     submitted: false,
@@ -72,67 +83,71 @@ function Contact() {
           <title>{CMS_NAME}</title>
         </Head>
         <Container>
-          <Intro />
-          <section className="pt-20 pb-28 w-6/12 md:w-full">
+          <HeadPage />
+          <ContainerTopSmall>
 
-            <div className="container mx-auto ">
-              <div className="flex flex-wrap items-center md:justify-between justify-center">
+            <StyledTitle className="font-passion-one text-center md:text-8xl text-7xl leading-none font-black">Contato </StyledTitle>
+            <section className="pt-20 pb-28 w-full">
+              <div className="container mx-auto ">
+                <div className="flex flex-wrap items-center md:justify-between justify-center">
 
-                <div className="w-9/12 md:w-4/12 mx-auto text-center">
-                  <div className="text-sm text-gray-100 font-semibold py-1">
+                  <div className="w-11/12 md:w-4/12 mx-auto text-center">
+                    <div className="text-sm text-gray-100 font-semibold py-1">
+                      {status.submitted === true ? (
+                        <AfterSendMail />
+                      ) : (
+                        <Form ref={formRef} className="flex flex-col gap-y-4" onSubmit={handleSubmit}>
+                          <Input
+                            name="name"
+                            type="text"
+                            placeholder="Nome"
+                            className="w-80 md:w-96 bg-gray-50 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
+                            required
+                          />
+                          <Input
+                            name="email"
+                            type="email"
+                            placeholder="Email"
+                            className="w-80 md:w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
+                            required
+                          />
+                          <MaskInput
+                            name="phone"
+                            type="text"
+                            placeholder="Telefone/Whatsapp"
+                            className="w-80 md:w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
+                            mask="(99) 9 9999 - 9999"
+                            required
+                          />
+                          <TextArea
+                            name="message"
+                            type="text"
+                            placeholder="Assunto"
+                            className="w-80 md:w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold resize-y"
+                          />
 
-                    {status.submitted === true ? (
-                      <AfterSendMail />
-                    ) : (
-                      <Form ref={formRef} className="flex flex-col gap-y-4" onSubmit={handleSubmit}>
-                        <Input
-                          name="name"
-                          type="text"
-                          placeholder="Nome"
-                          className="w-80 md:w-96 bg-gray-50 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
-                          required
-                        />
-                        <Input
-                          name="email"
-                          type="email"
-                          placeholder="Email"
-                          className="w-80 md:w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
-                          required
-                        />
-                        <MaskInput
-                          name="phone"
-                          type="text"
-                          placeholder="Telefone/Whatsapp"
-                          className="w-80 md:w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold"
-                          mask="(99) 9 9999 - 9999"
-                          required
-                        />
-                        <TextArea
-                          name="message"
-                          type="text"
-                          placeholder="Assunto"
-                          className="w-80 md:w-96 bg-gray-100 text-indigo-800 rounded mx-auto border border-gray-200 focus:outline-none focus:border-indigo-500 text-base py-4 px-4 font-semibold resize-y"
-                        />
-
-                        {status.submitting === true ?
-                          (
-                            <button className="w-80 md:w-96 text-gray-50 bg-purple-700 hover:bg-purple-500 hover:ring-2  px-2 py-5 rounded mx-auto transition-cubic " type="submit"  ><PendingSendMail /></button>
-                          ) :
-                          (
-                            <button className="w-80 md:w-96 text-gray-50 bg-purple-700 hover:bg-purple-500 hover:ring-2 transform hover:scale-105 px-28 py-5 rounded mx-auto transition-cubic font-semibold" type="submit">Enviar</button>
-                          )
-                        }
-                      </Form>
-                    )}
-
-
+                          {status.submitting === true ?
+                            (
+                              <button className="w-80 md:w-96 text-gray-50 bg-purple-700 hover:bg-purple-500 hover:ring-2  px-2 py-5 rounded mx-auto transition-cubic " type="submit"  ><PendingSendMail /></button>
+                            ) :
+                            (
+                              <button className="w-80 md:w-96 text-gray-50 bg-purple-700 hover:bg-purple-500 hover:ring-2 transform hover:scale-105 px-28 py-5 rounded mx-auto transition-cubic font-semibold" type="submit">Enviar</button>
+                            )
+                          }
+                        </Form>
+                      )}
+                    </div>
                   </div>
+
+
+
+
                 </div>
+
+
               </div>
-
-
-            </div>
-          </section>
+            </section>
+          </ContainerTopSmall>
           <Footer />
         </Container>
       </Layout>
