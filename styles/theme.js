@@ -4,7 +4,7 @@ const theme = {
     text: '#262525',
     primary: '#0556DB',
     primary_light: '#009DFA',
-    prymary_lighten: '#0FE5FE',
+    primary_lighten: '#0FE5FE',
     secondary: '#461E77',
     secondary_dark: '#2F1A77',
     secondary_light: '#DB85D3',
@@ -16,3 +16,5 @@ const theme = {
 }
 
 export default theme
+
+// #75dc43

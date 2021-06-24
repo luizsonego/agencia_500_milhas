@@ -16,11 +16,32 @@ const Card = ({
   blur,
   backgroundColor
 }) => {
+
+  const customStyles = {
+    content: {
+      top: '50%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+      overflow: 'auto',
+      height: '70%',
+      width: '75%',
+      padding: 0
+    },
+  };
+
+
   const [open, setOpen] = useState(false)
 
   const handleOpenModal = () => {
     setOpen(!open)
   }
+  function closeModal() {
+    setOpen(!open)
+  }
+
 
   return (
     <>
@@ -53,8 +74,11 @@ const Card = ({
       <Modal
         isOpen={open}
         onRequestClose={handleOpenModal}
-        contentLabel="Post modal"
+        contentLabel={title}
+        style={customStyles}
+        className=""
       >
+        <button onClick={closeModal} style={{ position: 'absolute', zIndex: 9, margin: '20px', }}><i class="fas fa-arrow-circle-left fa-2x text-gray-100"></i></button>
         <ConnectionModal
           ogImage={ogImage}
           title={title}

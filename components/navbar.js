@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { useState } from "react";
+import { ButtonPrimary } from '../styles/assets'
 
 const Navbar = (props) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -8,9 +9,9 @@ const Navbar = (props) => {
       <nav
         className={
           (props.transparent
-            ? "top-0 absolute z-50 w-full"
-            : "relative shadow-lg bg-white shadow-lg") +
-          " flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
+            ? "top-0 z-50 w-full"
+            : "shadow-lg bg-white shadow-lg") +
+          " flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg fixed w-full z-50 navbar"
         }
       >
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
@@ -91,6 +92,16 @@ const Navbar = (props) => {
                   >
                     Contato
                   </a>
+                </Link>
+              </li>
+
+              <li className="flex items-center">
+                <Link href="https://api.whatsapp.com/send?phone=554499803500&text=Gostaria%20de%20saber%20mais%20sobre%20o%20marketing%20para%20minha%20empresa" target="_blank">
+                  <ButtonPrimary
+                    className="px-9 py-4 lg:py-2 flex items-center text-xs uppercase font-bold rounded-full"
+                  >
+                    Fale conosco
+                  </ButtonPrimary>
                 </Link>
               </li>
 

@@ -6,7 +6,9 @@ date: '2020-03-16T05:35:07.322Z'
 author:
   name: Joe Haddad
   picture: '/assets/blog/authors/joe.jpeg'
-ogImage: '/assets/connectivity/banners/google-ads.png'
+ogImage:
+  url:  '/assets/connectivity/banners/google_ads.jpg'
+  urlMobile: '/assets/connectivity/banners/google_ads_mobie.jpg'
 ---
 
 Uma das principais ferramentas para se alcançar sucesso online e gerar receita para uma empresa são os **links patrocinados**.

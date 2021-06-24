@@ -68,7 +68,7 @@ function About() {
                     <p className="text-lg leading-relaxed m-4 text-gray-500 text-justify">
                       Tipos de desafios que ajudamos a resolver ...
                   </p>
-                    <ul className="text-left list-disc text-gray-600">
+                    <ul className="text-left list-disc text-gray-600 pl-9">
                       <li>Eu quero aumentar minha receita</li>
                       <li>Preciso de melhores ferramentas de gestão de negócios</li>
                       <li>Não tenho tempo para me concentrar no marketing</li>
@@ -85,7 +85,7 @@ function About() {
 
                   <div className="w-full lg:w-10/12 px-4 my-10">
                     <StyledTitle className="font-passion-one  md:text-8xl text-7xl leading-normal font-black">VALORES</StyledTitle>
-                    <ul className="text-left flex flex-wrap text-gray-600 list-disc">
+                    <ul className="text-left flex flex-wrap text-gray-600 list-disc pl-9">
                       <li className="w-full md:w-1/4">Criatividade</li>
                       <li className="w-full md:w-1/4">Sonhos</li>
                       <li className="w-full md:w-1/4">Imaginação</li>

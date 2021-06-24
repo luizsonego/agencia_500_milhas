@@ -11,6 +11,12 @@
 /* Start purging... */
 
 @tailwind utilities;
+
+nav.navbar {
+  background:rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+}
+
 .font-barrio {
   font-family: Barrio, cursive;
 }

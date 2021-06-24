@@ -62,16 +62,16 @@ export default function Footer() {
                       </a>
                       </Link>
                     </li>
-                    <li>
-                      <Link href="">
+                    {/* <li>
+                      <Link href="/services">
                         <a
                           className="text-gray-100 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                           target="_parent"
                         >
-                          Produtos
+                          Serviços
                       </a>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

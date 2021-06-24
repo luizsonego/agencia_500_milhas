@@ -1,12 +1,14 @@
 ---
 title: 'Google'
 excerpt: 'Partner'
-coverImage: '/assets/connectivity/google-partner.jpg'
+coverImage: '/assets/connectivity/google_partner.jpg'
 date: '2020-03-16T05:35:07.322Z'
 author:
   name: Joe Haddad
   picture: '/assets/blog/authors/joe.jpeg'
-ogImage: '/assets/connectivity/banners/google-partner.png'
+ogImage: 
+  url: '/assets/connectivity/banners/google_partner.jpg'
+  urlMobile: '/assets/connectivity/banners/google_partner_mobile.jpg'
 ---
 
 Em um só lugar, os profissionais de **AdWords** encontram: material educacional, programas de capacitação, treinamentos, ofertas promocionais, oportunidades para testar novos serviços, informações sobre tendências do mercado e da indústria do marketing e pesquisas relacionadas à área. Além de tudo isso, a plataforma disponibiliza materiais para informar aos clientes sobre o funcionamento e as vantagens do **Google AdWords**, fundamental para fortalecer a presença das empresas na web.

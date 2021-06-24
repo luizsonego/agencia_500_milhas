@@ -1,4 +1,6 @@
-import imageMaringa from "../public/assets/maringa.jpg"
+import Image from 'next/image'
+import imageMaringa from "../public/assets/14.jpg"
+import imageMaringaMobile from "../public/assets/capa_site_mobile_2.jpg"
 
 export default function Intro() {
   return (
@@ -6,17 +8,31 @@ export default function Intro() {
       <div
         className="relative pt-16 pb-32 flex content-center items-center justify-center"
         style={{
-          minHeight: "75vh",
+          minHeight: "65vh",
         }}
       >
-        <div
-          className="absolute top-0 w-full h-full bg-center bg-cover"
-          style={{
-            backgroundImage:
-              `url(${imageMaringa})`,
-          }}
-        >
-          <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
+
+        <div className="hidden md:block" >
+          <Image
+            src={imageMaringa}
+            alt="O caminho mais curto para o sucesso da sua empresa!"
+            layout="fill"
+            objectFit="cover"
+            quality={75}
+            placeholder='blur'
+            priority="eager"
+          />
+        </div>
+        <div className="block md:hidden" >
+          <Image
+            src={imageMaringaMobile}
+            alt="O caminho mais curto para o sucesso da sua empresa!"
+            layout="fill"
+            objectFit="cover"
+            quality={75}
+            placeholder='blur'
+            priority="eager"
+          />
         </div>
 
         <div className="container relative mx-auto">
@@ -25,7 +41,7 @@ export default function Intro() {
               <h1 className="text-white font-semibold text-8xl intro-title leading-none">
                 <span className="text-9xl md:text-8xl">500</span> Milhas
               </h1>
-              <p className="text-gray-50 font-semibold py-1 text-5xl text-lg text-gray-300">
+              <p className="text-gray-50 font-semibold py-1 text-5xl text-lg text-gray-50">
                 O caminho mais curto para o sucesso da sua empresa!
               </p>
             </div>

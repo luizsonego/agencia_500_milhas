@@ -6,7 +6,9 @@ date: '2020-03-16T05:35:07.322Z'
 author:
   name: Joe Haddad
   picture: '/assets/blog/authors/joe.jpeg'
-ogImage: '/assets/connectivity/banners/google-meu-negocio.png'
+ogImage:
+  url:  '/assets/connectivity/banners/google_meu_negocio.jpg'
+  urlMobile: '/assets/connectivity/banners/google_meu_negocio_mobile.jpg'
 ---
 
 Se você ainda não sabe **o que é Google Meu Negócio**, pode estar perdendo uma excepcional oportunidade

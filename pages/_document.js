@@ -20,10 +20,10 @@ export default class MyDocument extends Document {
             }}
           />
 
-          {/* <!-- Hotjar Tracking Code for https://agencia.500milhas.com.br/ --> */}   
-            <script 
-              dangerouslySetInnerHTML={{ 
-                __html: `
+          {/* <!-- Hotjar Tracking Code for https://agencia.500milhas.com.br/ --> */}
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
                 (function(h,o,t,j,a,r){
                   h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
                       h._hjSettings={hjid:2467514,hjsv:6};
@@ -33,9 +33,14 @@ export default class MyDocument extends Document {
                       a.appendChild(r);
                   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
                 `
-              }}
-            />
-          
+            }}
+          />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700;900&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet" />
+          <script src="https://kit.fontawesome.com/bfaef1dc37.js" crossorigin="anonymous"></script>
         </Head>
         <body>
           <Main />
