@@ -8,7 +8,7 @@ author:
   picture: '/assets/blog/authors/joe.jpeg'
 ogImage:
   url:  '/assets/connectivity/banners/google_ads.jpg'
-  urlMobile: '/assets/connectivity/banners/google_ads_mobie.jpg'
+  urlMobile: '/assets/connectivity/banners/google_ads_mobile.jpg'
 ---
 
 Uma das principais ferramentas para se alcançar sucesso online e gerar receita para uma empresa são os **links patrocinados**.

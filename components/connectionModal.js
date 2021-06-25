@@ -7,7 +7,7 @@ export default function ConnectionModal({ ogImage, title, content }) {
   return (
     <>
       <div style={{ position: 'relative', width: '100%', height: '350px' }}>
-        <ViewSource pathname={ogImage} />
+        <ViewSource pathname={ogImage.url} />
         <div className="hidden md:block" >
           <Image
             alt={title}

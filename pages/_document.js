@@ -5,6 +5,12 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700;900&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet" />
+          <script src="https://kit.fontawesome.com/bfaef1dc37.js" crossorigin="anonymous"></script>
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-WCRSRSNN7X"
@@ -35,12 +41,18 @@ export default class MyDocument extends Document {
                 `
             }}
           />
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700;900&display=swap" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet" />
-          <script src="https://kit.fontawesome.com/bfaef1dc37.js" crossorigin="anonymous"></script>
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              (function(w,d,u){
+                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+              })(window,document,'https://cdn.bitrix24.com.br/b17932893/crm/site_button/loader_4_qn3lht.js');
+              `
+            }}
+          />
+
         </Head>
         <body>
           <Main />
