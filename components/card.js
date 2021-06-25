@@ -12,6 +12,7 @@ const Card = ({
   description,
   content,
   ogImage,
+  ogImageMobile,
   image,
   blur,
   backgroundColor
@@ -79,6 +80,7 @@ const Card = ({
         <button onClick={closeModal} style={{ position: 'absolute', zIndex: 9, margin: '20px', }}><i className="fas fa-arrow-circle-left fa-2x text-gray-100"></i></button>
         <ConnectionModal
           ogImage={ogImage}
+          ogImageMobile={ogImageMobile}
           title={title}
           content={content}
         />

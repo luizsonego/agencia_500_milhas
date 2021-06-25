@@ -1,13 +1,13 @@
 import Head from 'next/head'
+import Cta from '../components/cta'
 import Intro from '../components/intro'
+import Footer from '../components/footer'
 import Layout from '../components/layout'
 import { CMS_NAME } from '../lib/constants'
 import { getAllConn } from '../lib/apiConn'
 import About from '../components/pages/about'
 import Container from '../components/container'
 import Connect from '../components/pages/connectivity'
-import Footer from '../components/footer'
-import Cta from '../components/cta'
 
 export default function Index({ allConn }) {
   const connections = allConn
@@ -39,6 +39,7 @@ export async function getStaticProps() {
     'author',
     'content',
     'ogImage',
+    'ogImageMobile',
     'coverImage',
   ])
 

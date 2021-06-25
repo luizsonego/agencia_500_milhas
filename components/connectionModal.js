@@ -3,15 +3,15 @@ import ModalTitle from "./modal-title"
 import PostBody from "./post-body"
 import ViewSource from "./view-source"
 
-export default function ConnectionModal({ ogImage, title, content }) {
+export default function ConnectionModal({ ogImage, ogImageMobile, title, content }) {
   return (
     <>
       <div style={{ position: 'relative', width: '100%', height: '350px' }}>
-        <ViewSource pathname={ogImage.url} />
+        <ViewSource pathname={ogImage} />
         <div className="hidden md:block" >
           <Image
             alt={title}
-            src={ogImage.url}
+            src={ogImage}
             layout="fill"
             objectFit="cover"
             quality={75}
@@ -21,7 +21,7 @@ export default function ConnectionModal({ ogImage, title, content }) {
         <div className="block md:hidden" >
           <Image
             alt={title}
-            src={ogImage.urlMobile}
+            src={ogImageMobile}
             layout="fill"
             objectFit="cover"
             quality={75}
