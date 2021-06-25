@@ -32,7 +32,6 @@ const Card = ({
     },
   };
 
-
   const [open, setOpen] = useState(false)
 
   const handleOpenModal = () => {
@@ -76,9 +75,8 @@ const Card = ({
         onRequestClose={handleOpenModal}
         contentLabel={title}
         style={customStyles}
-        className=""
       >
-        <button onClick={closeModal} style={{ position: 'absolute', zIndex: 9, margin: '20px', }}><i class="fas fa-arrow-circle-left fa-2x text-gray-100"></i></button>
+        <button onClick={closeModal} style={{ position: 'absolute', zIndex: 9, margin: '20px', }}><i className="fas fa-arrow-circle-left fa-2x text-gray-100"></i></button>
         <ConnectionModal
           ogImage={ogImage}
           title={title}
