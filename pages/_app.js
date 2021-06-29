@@ -3,8 +3,8 @@ import Router from 'next/router'
 import theme from '../styles/theme'
 import { ThemeProvider } from 'styled-components'
 import NProgress from 'nprogress'
-import '../styles/index.css'
 import Loading from '../components/animations/loading'
+import '../styles/index.css'
 
 export default function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false)

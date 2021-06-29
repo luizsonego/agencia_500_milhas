@@ -96,6 +96,21 @@ const Navbar = (props) => {
               </li>
 
               <li className="flex items-center">
+                <Link href="/services">
+                  <a
+                    className={
+                      (props.transparent
+                        ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                        : "text-gray-800 hover:text-gray-600") +
+                      " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    }
+                  >
+                    Serviços
+                  </a>
+                </Link>
+              </li>
+
+              <li className="flex items-center">
                 <Link href="https://api.whatsapp.com/send?phone=554499803500&text=Gostaria%20de%20saber%20mais%20sobre%20o%20marketing%20para%20minha%20empresa" target="_blank">
                   <ButtonPrimary
                     className="px-9 py-4 lg:py-2 flex items-center text-xs uppercase font-bold rounded-full"

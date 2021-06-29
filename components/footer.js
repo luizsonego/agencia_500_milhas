@@ -19,12 +19,18 @@ export default function Footer() {
                   className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                 >
-                  <i className="fab fa-facebook-square"></i>
+                  <a href="https://www.facebook.com/Agência-500-Milhas-102975658500673" target="_blank">
+                    <i className="fab fa-facebook-square"></i>
+                  </a>
                 </button>
                 <button
                   className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
-                ><i className="fab fa-instagram"></i></button>
+                >
+                  <a href="https://www.instagram.com/agencia500milhas/" target="_blank">
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                </button>
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4">
@@ -62,7 +68,7 @@ export default function Footer() {
                       </a>
                       </Link>
                     </li>
-                    {/* <li>
+                    <li>
                       <Link href="/services">
                         <a
                           className="text-gray-100 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
@@ -71,7 +77,7 @@ export default function Footer() {
                           Serviços
                       </a>
                       </Link>
-                    </li> */}
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -81,7 +87,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-gray-100 font-semibold py-1">
-                Agência 500 Milhas. 2019 - {new Date().getFullYear()}.
+                Agência 500 Milhas. 2016 - {new Date().getFullYear()}.
               </div>
             </div>
           </div>

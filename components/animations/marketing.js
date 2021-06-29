@@ -10,7 +10,7 @@ const Marketing = () => {
 
 
   const defaultOptions = {
-    loop: true,
+    loop: false,
     autoplay: true,
     animationData: animationData,
     rendererSettings: {
@@ -21,7 +21,7 @@ const Marketing = () => {
     <Lottie
       options={defaultOptions}
       height='auto'
-      width={400}
+      width={350}
       isStopped={animationState.isStopped}
       isPaused={animationState.isPaused}
     />
