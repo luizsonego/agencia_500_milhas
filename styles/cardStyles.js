@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledCard = styled.div`
+  cursor: pointer;
   background: ${(props) => props.backgroundColor};
   ${(props) => props.blur && 'backdrop-filter: blur(4px);'}
   transition: ease-in-out 0.9s;
