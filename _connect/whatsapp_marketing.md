@@ -3,12 +3,8 @@ title: 'Whatsapp'
 excerpt: 'Marketing'
 coverImage: '/assets/connectivity/whatsapp_mkt.jpg'
 date: '2020-03-16T05:35:07.322Z'
-author:
-  name: Joe Haddad
-  picture: '/assets/blog/authors/joe.jpeg'
-ogImage:
-  url:  '/assets/connectivity/banners/whatsapp_marketing.jpg'
-  urlMobile: '/assets/connectivity/banners/whatsapp_marketing_mobile.jpg'
+ogImage: '/assets/connectivity/banners/whatsapp_marketing.jpg'
+ogImageMobile: '/assets/connectivity/banners/whatsapp_marketing_mobile.jpg'
 ---
 
 WhatsApp Marketing não é o nome de um recurso disponível no aplicativo, mas de uma estratégia que faz do app um canal específico para que marcas e empresas ampliem seu alcance e dialoguem com seus públicos.

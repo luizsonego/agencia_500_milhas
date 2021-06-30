@@ -3,12 +3,8 @@ title: 'Instagram'
 excerpt: 'marketing'
 coverImage: '/assets/connectivity/instagram_mkt.jpg'
 date: '2020-03-16T05:35:07.322Z'
-author:
-  name: Joe Haddad
-  picture: '/assets/blog/authors/joe.jpeg'
-ogImage:
-  url:  '/assets/connectivity/banners/instagram_marketing.jpg'
-  urlMobile: '/assets/connectivity/banners/instagram_marketing_mobile.jpg'
+ogImage: '/assets/connectivity/banners/instagram_marketing.jpg'
+ogImageMobile: '/assets/connectivity/banners/instagram_marketing_mobile.jpg'
 ---
 
 O Instagram já conta com cerca de **800 milhões** de usuários de todo o mundo. Os brasileiros ocupam a terceira posição de usuários da rede.

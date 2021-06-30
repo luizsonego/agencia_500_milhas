@@ -1,14 +1,10 @@
 ---
 title: 'Social'
 excerpt: 'Media'
-coverImage: '/assets/connectivity/social_midia.jpg'
+coverImage: '/assets/connectivity/social_media.jpg'
 date: '2020-03-16T05:35:07.322Z'
-author:
-  name: Joe Haddad
-  picture: '/assets/blog/authors/joe.jpeg'
-ogImage:
-  url:  '/assets/connectivity/banners/social_midia.jpg'
-  urlMobile: '/assets/connectivity/banners/social_midia_mobile.jpg'
+ogImage: '/assets/connectivity/banners/social_media.jpg'
+ogImageMobile: '/assets/connectivity/banners/social_media_mobile.jpg'
 ---
 
 Caso alguém falasse há alguns anos que seria possível ganhar dinheiro e construir carreira com a **gestão de redes sociais**, qual seria a sua reação? Muita gente provavelmente acharia graça ou não ligaria tanto para a conversa.

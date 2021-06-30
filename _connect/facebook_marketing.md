@@ -3,9 +3,6 @@ title: 'Facebook'
 excerpt: 'Marketing'
 coverImage: '/assets/connectivity/face_ads.jpg'
 date: '2020-03-16T05:35:07.322Z'
-author:
-  name: Joe Haddad
-  picture: '/assets/blog/authors/joe.jpeg'
 ogImage: '/assets/connectivity/banners/facebook_marketing_2.jpg'
 ogImageMobile: '/assets/connectivity/banners/facebook_marketing_mobile.jpg'
 ---

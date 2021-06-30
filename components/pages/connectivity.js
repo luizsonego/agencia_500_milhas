@@ -19,8 +19,7 @@ export default function Connect({ connect }) {
                 ogImage={conn.ogImage}
                 ogImageMobile={conn.ogImageMobile}
                 content={conn.content}
-                backgroundColor="#ffffff55"
-                blur
+                backgroundColor="#0656DB99"
               />
             ))
           }
