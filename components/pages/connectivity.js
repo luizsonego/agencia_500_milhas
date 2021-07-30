@@ -20,6 +20,7 @@ export default function Connect({ connect }) {
                 ogImageMobile={conn.ogImageMobile}
                 content={conn.content}
                 backgroundColor="linear-gradient(90deg, #0F5CDC 20%, #0EC8F6 100.5%), #0656DB"
+                style={{background: '#ffffff'}}
               />
             ))
           }
